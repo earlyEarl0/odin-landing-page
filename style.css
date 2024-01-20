@@ -1,0 +1,29 @@
+body {
+    display:flex;
+    flex-direction:column;
+}
+ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.header {
+    display:flex;
+    justify-content:space-around;
+    background-color: #1f2937;
+    color:white;
+    align-items:center;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100px;
+}
+.headerlogo {
+    font-size:32px;
+    font-weight:500;
+}
+.headerlinks {
+    display:flex;
+    justify-content:space-between;
+}
+li {
+    padding:5px;
+}
