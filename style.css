@@ -70,3 +70,48 @@ button {
     border:none;
     padding:5px;
 }
+.middle {
+    display:flex;
+    flex-direction:column;
+}
+.info {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    background-color:rgb(219, 245, 236);
+}
+.boximage {
+    border:solid black 4px;
+}
+.boximagetext {
+    gap:10px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.boxtext {
+    width:160px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.quote {
+    display:flex;
+    flex-direction:column;
+    margin:10px auto;
+    width:700px;
+    padding:50px;
+}
+.mainquote {
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    font-size:48px;
+}
+.quotername {
+    text-align:right;
+    font-size:44px;
+    font-weight:900;
+}
