@@ -183,3 +183,17 @@ button {
     margin-bottom:5px;
     border-radius:5px;
 }
+.footer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border:#1f2937 solid 3px;
+    color:#1f2937;
+    margin:0 auto;
+    padding:10px;
+    font-size:20px;
+    font-weight:700;
+    border-radius:25px;
+    background-color:#e5e7e9;
+}
